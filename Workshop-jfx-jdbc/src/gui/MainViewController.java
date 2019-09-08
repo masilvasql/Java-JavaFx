@@ -15,6 +15,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
+import model.services.DepartmentService;
 
 public class MainViewController implements Initializable {
 
@@ -34,7 +35,7 @@ public class MainViewController implements Initializable {
 
 	@FXML
 	public void onMenuDepartmentAction() {
-		loadView("/gui/DepartmentList.fxml");
+		loadView2("/gui/DepartmentList.fxml");
 	}
 
 	@FXML
@@ -62,6 +63,31 @@ public class MainViewController implements Initializable {
 			
 			mainVbox.getChildren().add(mainMenu); //adiciona novamente o menu
 			mainVbox.getChildren().addAll(newVbox.getChildren()); // adiciona a nova tela
+			
+		}catch (IOException e) {
+			Alerts.showAlert("Aviso!", "IO/Excepetion", e.getMessage(), AlertType.ERROR);
+		}
+	}
+	
+	private synchronized void loadView2(String absoluteName) {
+		try {
+			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
+			VBox newVbox = loader.load(); // abre a nova tela
+			
+			Scene mainScene = Main.getMainScene(); //instancia a cena onde será aberta a nova tela, neste caso, dentro da mainview
+			
+			VBox  mainVbox = (VBox) ((ScrollPane) mainScene.getRoot()).getContent(); // instancia a hierarquia do mainView
+			
+			Node mainMenu = mainVbox.getChildren().get(0); //captura o item 0 (menu) da tela main
+			
+			mainVbox.getChildren().clear(); // limpa o conteúdo da tela main
+			
+			mainVbox.getChildren().add(mainMenu); //adiciona novamente o menu
+			mainVbox.getChildren().addAll(newVbox.getChildren()); // adiciona a nova tela
+			
+			DepartmentListController controller = loader.getController();
+			controller.setDepartmentService(new DepartmentService());
+			controller.updateTableView();
 			
 		}catch (IOException e) {
 			Alerts.showAlert("Aviso!", "IO/Excepetion", e.getMessage(), AlertType.ERROR);
