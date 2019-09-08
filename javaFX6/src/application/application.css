@@ -1,4 +1,9 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 .btn{
-	background-color:yellow;
+	-fx-background-color: #7ed6df;
+}
+
+.labelResult{
+	-fx-border-width:2px;
+	-fx-border-color:#7ed6df;
 }
