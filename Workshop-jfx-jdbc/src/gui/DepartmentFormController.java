@@ -10,10 +10,10 @@ import gui.util.Utils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.control.Alert.AlertType;
 import model.entities.Department;
 import model.services.DepartmentService;
 
@@ -44,35 +44,43 @@ public class DepartmentFormController implements Initializable {
 	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
-	
+
 	@FXML
 	public void onBtnSaveAction(ActionEvent event) {
-		if (entity == null) {
-			throw new IllegalStateException("entity null");
-		}
-		
-		if(service == null) {
-			throw new IllegalStateException("Service null");
-		}
+
 	
-		try {
-			entity = getFormData();
-			service.saveOrUpdate(entity);
-			Alerts.showAlert("Aviso!", null, "Departamento salvo com sucesso!", AlertType.INFORMATION);
-			Utils.currentStage(event).close();
-		}catch (DbException e) {
-			Alerts.showAlert("Aviso!", "Erro", "Erro ao salvar no banco de dados", AlertType.ERROR);
+		if (txtName.getText() == null){
+
+			Alerts.showAlert("Aviso!", "Campo obrigatório não preenchido", "Favor preencher o campo nome",
+					AlertType.WARNING);
+
+		} else {
+			if (entity == null) {
+				throw new IllegalStateException("entity null");
+			}
+
+			if (service == null) {
+				throw new IllegalStateException("Service null");
+			}
+
+			try {
+				entity = getFormData();
+				service.saveOrUpdate(entity);
+				Alerts.showAlert("Aviso!", null, "Departamento salvo com sucesso!", AlertType.INFORMATION);
+				Utils.currentStage(event).close();
+			} catch (DbException e) {
+				Alerts.showAlert("Aviso!", "Erro", "Erro ao salvar no banco de dados", AlertType.ERROR);
+			}
 		}
-		
-		
+
 	}
 
 	private Department getFormData() {
 		Department obj = new Department();
-		
+
 		obj.setId(Utils.tryParseToInt(txtId.getText()));
 		obj.setName(txtName.getText());
-		
+
 		return obj;
 	}
 
@@ -95,15 +103,11 @@ public class DepartmentFormController implements Initializable {
 	public void updateFormData() {
 		if (entity == null) {
 			throw new IllegalStateException("entity was null");
-		}else {
+		} else {
 			txtId.setText(String.valueOf(entity.getId()));
 			txtName.setText(entity.getName());
 		}
 
 	}
-	
-	
-	
-	
 
 }

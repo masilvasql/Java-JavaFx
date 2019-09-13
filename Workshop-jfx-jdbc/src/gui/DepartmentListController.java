@@ -5,8 +5,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import com.mysql.jdbc.Util;
-
 import application.Main;
 import gui.util.Alerts;
 import gui.util.Utils;
