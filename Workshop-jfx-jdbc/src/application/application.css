@@ -1,5 +1,8 @@
-.btnNewDepartment{
+.btnGreen{
 	-fx-background-color: #2ecc71;	
 	-fx-color:#fff;
-	
+}
+
+.btnOrange{
+	-fx-background-color: #f39c12;	
 }

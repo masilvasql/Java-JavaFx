@@ -45,6 +45,7 @@ public class MainViewController implements Initializable {
 	@FXML
 	public void onMenuItemAboutAction() {
 		loadView("/gui/About.fxml", x -> {});
+		
 	}
 
 	@Override
@@ -66,7 +67,11 @@ public class MainViewController implements Initializable {
 			mainVbox.getChildren().clear(); // limpa o conteúdo da tela main
 			
 			mainVbox.getChildren().add(mainMenu); //adiciona novamente o menu
+			
 			mainVbox.getChildren().addAll(newVbox.getChildren()); // adiciona a nova tela
+			
+
+			
 			
 			//Executam a função Lambda passada como argumento
 			T controller = loader.getController();
