@@ -1370,3 +1370,1046 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-09-08 20:09:21.751 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-08 20:10:07.978
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-08 20:10:35.658
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\marce'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-09-11 14:27:38.510 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-11 14:28:12.373
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-11 14:28:39.765
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\marce'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-09-11 14:31:12.028 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-11 14:31:19.992
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-11 14:31:27.827
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\marce'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-09-11 15:02:02.680
+!MESSAGE Execution exception for: ParameterizedCommand(Command(org.eclipse.ui.edit.paste,Paste,
+		Paste from the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19842883,
+		,,true),null) in 
+	context chain: WorkbenchContext
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:126)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:498)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1194)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1080)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1107)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1490)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4877)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4759)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:88)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:76)
+	at org.eclipse.jface.text.TextViewer.removeTextInputListener(TextViewer.java:2708)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.validateEditorInputState(AbstractTextEditor.java:4974)
+	at org.eclipse.ui.texteditor.StatusTextEditor.validateEditorInputState(StatusTextEditor.java:157)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.validateEditorInputState(AbstractDecoratedTextEditor.java:1055)
+	at org.eclipse.xtext.ui.editor.XtextEditor.validateEditorInputState(XtextEditor.java:695)
+	at org.eclipse.ui.texteditor.TextEditorAction.validateEditorInputState(TextEditorAction.java:147)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:120)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	... 55 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.558
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/embedded.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.569
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/modena.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.580
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/fxvk.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.590
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/two-level-focus.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.602
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/embedded-qvga.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.612
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/modena-no-transparency.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.631
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/whiteOnBlack.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.641
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/blackOnWhite.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.651
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/two-level-focus.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.661
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/highcontrast.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.710
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: platform:/resource/Workshop-jfx-jdbc/src/application/application.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.733
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/touch.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.748
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/yellowOnBlack.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.764
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/modena/modena-embedded-performance.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.774
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/caspian-no-transparency.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+
+!ENTRY org.apache.log4j 4 0 2019-09-11 15:02:04.788
+!MESSAGE org.eclipse.xtext.builder.clustering.ClusteringBuilderState  - Error loading resource from: archive:file:/C:/Java-lib/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/skin/caspian/caspian.css
+
+!STACK 0
+org.eclipse.xtext.builder.resourceloader.IResourceLoader$LoadOperationException: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:50)
+	at org.eclipse.xtext.builder.resourceloader.AbstractResourceLoader$CheckedLoadOperation.next(AbstractResourceLoader.java:77)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.writeNewResourceDescriptions(ClusteringBuilderState.java:378)
+	at org.eclipse.xtext.builder.clustering.ClusteringBuilderState.doUpdate(ClusteringBuilderState.java:139)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.update(AbstractBuilderState.java:148)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:408)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.addInfosFromTaskAndBuild(XtextBuilder.java:342)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:447)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not create the Injector for org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.
+Bundle org.eclipse.fx.ide.css.ui was not activated.
+Please check that all dependencies could be resolved and 'Bundle-ActivationPolicy: lazy' is configured in the bundle's MANIFEST.MF. Check also the error log.
+A NullPointerException occurred. This also indicates that bundle org.eclipse.fx.ide.css.ui was compiled with an outdated version of Xtext. Please consider to regenerate the DSL implementation  with a current version.
+Your currently installed version of Xtext is 2.18.0.v20190528-0513.
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.handleCreationError(AbstractGuiceAwareExecutableExtensionFactory.java:96)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:64)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$PluginClassDescriptor.createInstance(RegistryReader.java:179)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$ResourceFactoryDescriptor.createFactory(RegistryReader.java:201)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.convert(ResourceFactoryRegistryImpl.java:92)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$2.delegatedGetFactory(ResourceSetImpl.java:458)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:144)
+	at org.eclipse.emf.ecore.resource.impl.ResourceFactoryRegistryImpl.getFactory(ResourceFactoryRegistryImpl.java:85)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.createResource(ResourceSetImpl.java:431)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.xtext.resource.XtextResourceSet.getResource(XtextResourceSet.java:260)
+	at org.eclipse.xtext.resource.SynchronizedXtextResourceSet.getResource(SynchronizedXtextResourceSet.java:25)
+	at org.eclipse.xtext.builder.resourceloader.SerialResourceLoader$1.next(SerialResourceLoader.java:47)
+	... 20 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getBundle(CssDslExecutableExtensionFactory.java:21)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:52)
+	... 33 more
+!SESSION 2019-09-12 20:51:26.972 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-12 20:52:00.898
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-12 20:54:17.826
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\marce'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
